@@ -26,3 +26,6 @@ function renderBooks(books) {
     bookList.appendChild(li);
   });
 }
+
+// Run fetchBooks when the DOM is loaded
+document.addEventListener("DOMContentLoaded", fetchBooks);
